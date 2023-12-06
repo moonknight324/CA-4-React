@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@700&family=Pacifico&family=Poppins&family=Satisfy&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+/* Button style for changing the mode */
+.mode-btn {
+  height: 30px;
+  width: 102px;
+  margin-top: 37px;
+  border-radius: 15px;
+  background-color: black;
+  color: lavender;
+  padding: 5px;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  padding: 10px;
+  height: 100vh;
+}
+
+/* style for question box */
+.question-box {
+  border: 1px solid rgb(148, 148, 148);
+  border-radius: 10px;
+  width: 60vw;
+  height: 67vh;
+  margin-left: 18%;
+  padding: 10px;
+  box-shadow: 2px 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(69, 208, 255);
+}
+
+.question-text {
+  font-size: 32px;
+  color: rgb(9, 65, 170);
+}
+
+/* Title styles */
+.title {
+  font-size: 38px;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: 700;
+}
+
+.options {
+  list-style: none;
+  font-size: 23px;
+  font-weight: 450;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 8px;
+  background-color: rgb(255, 158, 172);
+  cursor: pointer;
+}
+
+.options:hover {
+  background-color: rgb(255, 199, 217);
+  box-shadow: 1px 1px;
+}
+
+/* Button styles */
+button {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.highlight,
+.remove {
+  background-color: rgb(232, 92, 42);
+  color: lavender;
+  padding: 15px;
+}
+
+.remove {
+  margin-left: 40px;
+}
+
+.score {
+  font-size: 30px;
+}
+
+.final-score {
+  font-size: 40px;
+  margin-top: 60px;
+  color: rgb(9, 65, 170);
+}
+
+/* style for result */
+.results {
+  border: 1px solid rgb(148, 148, 148);
+  border-radius: 10px;
+  width: 30vw;
+  height: 40vh;
+  margin-left: 33%;
+  margin-top: 5%;
+  padding: 10px;
+  box-shadow: 2px 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(69, 208, 255);
+}
+
+.score{
+    font-size: 40px;
+}
+
+.restart-btn {
+  background-color: rgb(255, 215, 255);
+}
